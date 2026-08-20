@@ -1,0 +1,4 @@
+quantity,literal_reconstruction_years,published_target_years,absolute_difference_years
+Brain + published background,194.27058151988712,194.0,0.27058151988711643
+Heart + published background,208.23119232715283,208.0,0.23119232715282578
+Brain × Heart × published background,156.41314429259495,156.0,0.41314429259495

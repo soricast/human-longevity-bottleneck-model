@@ -1,0 +1,63 @@
+{
+  "seed": 20260819,
+  "N": 100000,
+  "dt_years": 0.25,
+  "tmax_years": 300.0,
+  "background_median_years": 1759,
+  "targets": {
+    "brain_bg_T50": 194,
+    "heart_bg_T50": 208,
+    "combined_T50": 156
+  },
+  "shape_k": 2.6472390932331864,
+  "a_brain": 5.416463070049839e-07,
+  "a_heart": 4.463787775461059e-07,
+  "lambda_bg": 0.0003940575216372628,
+  "chip_prevalence_cap_age80": 0.3,
+  "driver_weights": {
+    "DNMT3A": 0.5735294117647058,
+    "TET2": 0.2647058823529412,
+    "ASXL1": 0.04411764705882353,
+    "JAK2": 0.11764705882352941
+  },
+  "growth_params": {
+    "DNMT3A": [
+      0.05,
+      0.05
+    ],
+    "TET2": [
+      0.1,
+      0.05
+    ],
+    "ASXL1": [
+      0.1,
+      0.05
+    ],
+    "JAK2": [
+      0.1,
+      0.1
+    ]
+  },
+  "VAF_ref_pct": 10.0,
+  "K_V_pct": 1.0,
+  "primary_HR": {
+    "DNMT3A": 1.15,
+    "TET2": 1.52,
+    "ASXL1": 1.52,
+    "JAK2": 1.52
+  },
+  "positive_CHD_HR": {
+    "DNMT3A": 1.7,
+    "TET2": 1.7,
+    "ASXL1": 1.7,
+    "JAK2": 12.1
+  },
+  "negative_control_HR": {
+    "DNMT3A": 1.0,
+    "TET2": 1.0,
+    "ASXL1": 1.0,
+    "JAK2": 1.0
+  },
+  "estimated_switch_HR_among_CHIP": 1.272,
+  "switch_HR_note": "Approximate 50% Heart-first switching boundary on the exact reconstructed Efimov Model II backbone, calibrated at VAF=10%."
+}
