@@ -62,7 +62,7 @@ Theoretical T50 values are model outputs and are not clinical lifespan predictio
 
 ## Code availability
 
-Repository URL: **[INSERT FINAL GITHUB REPOSITORY URL]**
+Repository URL: **https://github.com/soricast/human-longevity-bottleneck-model**
 
 The release used for the manuscript should be tagged `v1.0.0` and may additionally be archived in Zenodo.
 
